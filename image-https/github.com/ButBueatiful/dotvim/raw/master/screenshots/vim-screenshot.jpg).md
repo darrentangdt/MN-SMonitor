@@ -19,6 +19,7 @@
 #### 如何开始
 注册容联云通讯账户一枚，进入管理控制台：
 ![image](http://kslr.qiniudn.com/20140528110132.png)
+
 在index文件中把这两个填上
     $conf['main_account'] = '';
     $conf['main_token'] = '';

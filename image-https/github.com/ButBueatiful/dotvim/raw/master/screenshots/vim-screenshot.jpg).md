@@ -21,13 +21,16 @@
 ![image](http://kslr.qiniudn.com/20140528110132.png)
 
 在index文件中把这两个填上
+```php
     $conf['main_account'] = '';
     $conf['main_token'] = '';
+```
     
-
 接下来在控制台左侧切换到应用列表->点击应用名（不是编辑按钮）。
 这里会有一个APP ID，填到index文件里面
-    $conf['app_id'] = '';
+```php
+$conf['app_id'] = '';
+```
 
 然后在上面选项卡中->语音库管理->上传新语音。
 [示例WAW文件下载](http://kslr.qiniudn.com/1.wav)，文件名必须为1.wav
